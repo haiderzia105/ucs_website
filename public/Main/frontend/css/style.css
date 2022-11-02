@@ -1,0 +1,45 @@
+/* Header Style */
+.header-top{
+    /* background-image: url('/public/Main/frontend/images/bg_header.jpg');
+    background-repeat: no-repeat, repeat;
+    height: 100vh; */
+    background-color: beige;
+}
+
+.header-top .img-back-head img{
+position: relative;
+z-index: -1;
+
+}
+.header-top-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.header-top-info ul li{
+    list-style-type: none;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.header-top .footer-social
+{
+text-align: left;
+text-decoration: none;
+list-style-type: none;
+}
+.header-top .footer-social ul li{
+    list-style-type: none;
+}
+
+.header-top .footer-social ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.header-top .ucs-logo{
+    width: 100px;
+}
