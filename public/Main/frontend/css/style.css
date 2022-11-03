@@ -1,15 +1,12 @@
 /* Header Style */
 .header-top{
-    /* background-image: url('/public/Main/frontend/images/bg_header.jpg');
-    background-repeat: no-repeat, repeat;
-    height: 100vh; */
-    background-color: beige;
+    /* background: url('/public/Main/frontend/images/bg_header.jpg');
+    background-repeat: no-repeat, repeat; */
+    background-color: antiquewhite;
 }
 
-.header-top .img-back-head img{
-position: relative;
-z-index: -1;
-
+.border-header{
+    border-bottom: 0.5px solid black;
 }
 .header-top-info ul {
     display: flex;
@@ -19,8 +16,9 @@ z-index: -1;
 }
 .header-top-info ul li{
     list-style-type: none;
-    color: black;
+    color: #9097b9;
     font-size: 16px;
+    font-weight: bold;
     
 }
 
@@ -29,17 +27,51 @@ z-index: -1;
 text-align: left;
 text-decoration: none;
 list-style-type: none;
+
 }
 .header-top .footer-social ul li{
     list-style-type: none;
 }
 
 .header-top .footer-social ul li a{
-    color: black;
+    color: #9097b9;
     text-decoration: none;
+    font-weight: bold;
 
 }
-
 .header-top .ucs-logo{
     width: 100px;
+}
+.sticky-wrapper {
+    background-color: #18a166;
+    border-bottom: 0.5px solid #d1aa67;
+}
+.sticky-wrapper .navbar .navbar-nav li a {
+    color: white;
+}
+
+.ucs-upper-image img {
+    width: 100%;
+}
+
+/* Footer style */
+.footer-area{
+    background-color: #18a166;
+}
+.footer-area .footer-widget-container .single-footer-widget h4{
+    color: white;
+    font-weight: bold;
+}
+.footer-area .footer-widget-container .single-footer-widget .footer-widget-list{
+    list-style-type: none;
+}
+.footer-area .footer-widget-container .single-footer-widget .footer-widget-list li a img{
+    width: 200px;
+}
+.footer-area .footer-widget-container .single-footer-widget .footer-widget-list li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-area .footer-widget-container .single-footer-widget .footer-widget-list li a p{
+    color: gray;
 }
