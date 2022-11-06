@@ -7,6 +7,7 @@
 
 .border-header{
     border-bottom: 0.5px solid black;
+    width: 100%;
 }
 .header-top-info ul {
     display: flex;
@@ -74,4 +75,63 @@ list-style-type: none;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list li a p{
     color: gray;
+}
+
+
+/* Home Page Style */
+.home-wrapper .two-logo img{
+    width: 220px;
+}
+.home-wrapper .building-flex {
+    position: relative;
+    width: 100%;
+}
+.home-wrapper .group-image {
+    position: absolute;
+    top: 90px;
+    left: -25px;
+    transform: translate(40px,-30px);
+}
+.home-wrapper .text-cambridge p{
+ text-align: justify;
+}
+.home-wrapper .video-section iframe{
+    width: 100%;
+    height:315px;
+}
+
+
+.home-wrapper .truely-text h5 {
+    position: relative;
+    z-index: 1;
+} 
+.home-wrapper .truely-text h5:before {
+    border-top: 2px solid #18a166;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.home-wrapper .truely-text h5 span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    background: #fff; 
+    padding: 0 15px; 
+}
+.home-wrapper .abc-work .card .image-one img{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+}
+@media screen and (max-width:992px) {
+    .home-wrapper .group-image {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transform: translate(0px,0px);
+    }
+    .home-wrapper .video-section iframe{
+        width: 100%;
+        height:100%;
+    }
 }
