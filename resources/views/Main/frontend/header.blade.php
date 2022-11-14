@@ -4,18 +4,18 @@
     </div> --}}
     <div class="container g-0">
 
-        <div class="row border-header">
+        <div class="row border-header pb-0">
             <div class="col-md-6 col-sm-6">
                 <div class="header-top-info">
-                    <ul>
-                        <li><i class="fa-solid fa-phone"></i>011 4011 220</li>
+                    <ul class="mb-0">
+                        <li><i class="fa fa-phone me-2" aria-hidden="true"></i>011 4011 220</li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="header-top-social footer-social">
-                    <ul class="d-flex ">
-                        <li><a href=""></a></li>
+                    <ul class="d-flex mb-0 ">
+                        <li><i class="fa fa-flag me-2" aria-hidden="true"></i></li>
                         <li ><a href="" class="plat-stud me-3">Platform for students</a></li>
                         <li><a href="" class="plat-parents me-3">Platform for parents</a></li>
                         <li><a href="" class="plat-dl me-3">DL platform</a></li>
@@ -60,7 +60,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Jobs
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
           <a class="dropdown-item" href="#">1</a>
           <a class="dropdown-item" href="#">2</a>
           <div class="dropdown-divider"></div>

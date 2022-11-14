@@ -29,6 +29,7 @@
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+<script src="https://kit.fontawesome.com/bdfe7d1c26.js" crossorigin="anonymous"></script>  
 <script>
     $('#owl-first-home').owlCarousel({
         loop: true,
