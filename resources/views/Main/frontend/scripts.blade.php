@@ -23,11 +23,14 @@
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     }
 </script>
+<!-- Counts JS -->
+<script src="{{asset('/Main/frontend/js/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('/Main/frontend/js/jquery.waypoints.js')}}"></script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script>
-    $('.owl-carousel').owlCarousel({
+    $('#owl-first-home').owlCarousel({
         loop: true,
         margin: 10,
         nav: false,
@@ -52,6 +55,39 @@
         }
     })
 </script> 
+<script>
+    $('#owl-second-home').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            400: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            },
+            1300: {
+                items: 3
+            },
+        }
+    })
+</script>
+<script type="text/javascript">
+    // jQuery counterUp
+    $('[data-toggle="counterUp"]').counterUp({
+        delay: 10,
+        time: 1500
+    });
+</script>
 @stack('js')
 </body>
 </html>

@@ -92,7 +92,7 @@
 <div class="abc-work ">
 <div class="container-fluid g-0">
 <div class="row g-0 justify-content-center mx-5">
-<div class="owl-carousel owl-theme">
+<div class="owl-carousel owl-theme" id="owl-first-home">
 <div class="item">
 <div class="col-lg-12">
 <div class="card me-lg-3 mt-2">
@@ -196,5 +196,141 @@
 </div>
 </div>
 </div>
+
+{{-- Counter Section --}}
+<div class="chemical-counter py-sm-5 py-2">
+    <img src="{{asset('Main/frontend/images/chemicals.png')}}" class="img-fluid">
+
+<div class="container chemical-text">
+    <div class="row text-center">
+    <div class="col-3">
+    <div class="counter">
+        <div class="ucs-counter">
+            <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+             <h2 class="counter-num mt-2" data-toggle="counterUp" >4</h2>
+             <h5 class="counter-text">Best Cambridge Students in the world</h5>
+        </div>
+    </div>
+    </div>
+    <div class="col-3">
+        <div class="counter">
+            <div class="ucs-counter">
+                <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+                 <h2 class="counter-num mt-2" data-toggle="counterUp" >11</h2>
+                 <h5 class="counter-text">Cambridge subjects</h5>
+            </div>
+    </div>
+    </div>
+        
+    <div class="col-3">
+        <div class="counter">
+            <div class="ucs-counter">
+                <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+                 <h2 class="counter-num mt-2" data-toggle="counterUp" >31</h2>
+                 <h5 class="counter-text">Satisfied students</h5>
+            </div>
+    </div>
+    </div>
+    
+    <div class="col-3">
+        <div class="counter">
+            <div class="ucs-counter">
+                <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+                 <h2 class="counter-num mt-2" data-toggle="counterUp" >30</h2>
+                 <h5 class="counter-text">Cambridge Exams passing rate</h5>
+            </div>
+    </div>
+    </div>
+    </div>
+    </div></div>
+
+    
+    <div class="regonize-section text-center my-3">
+        <div class="container">
+        <h3>Global recognition and awards as a confirmation of quality</h3>
+        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="row g-0 my-3">
+            <div class="col-md-6">
+        <div class="video-section mx-sm-2">
+        <iframe
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+        </iframe>
+        </div></div>
+        <div class="col-md-6">
+        <div class="video-section mx-sm-2">
+        <iframe
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+        </iframe>
+        </div></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="download-section my-3">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="{{asset('Main/frontend/images/banner-one.png')}}" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="{{asset('Main/frontend/images/banner-two.png')}}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="international-school text-center my-3">
+        <h3>What do international School students and their parents say</h3>
+        <div class="owl-carousel owl-theme" id="owl-second-home">
+            
+            <div class="item">
+            <div class="col-lg-12">
+                <div class="card text-center me-lg-3 mt-2 p-3">
+                <h6>Making it easier to enrol into universities abroad</h6>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac.</p>
+                <div class="avatar">
+                    <img src="" class="">
+                </div>
+                <h6>Milica Prvulj</h6>
+                <p>Milica Mom</p>
+                </div>
+            </div></div>
+            
+            <div class="item">
+                <div class="col-lg-12">
+                    <div class="card text-center me-lg-3 mt-2 p-3">
+                    <h6>Making it easier to enrol into universities abroad</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac.</p>
+                    <div class="avatar">
+                        <img src="" class="">
+                    </div>
+                    <h6>Milica Prvulj</h6>
+                    <p>Milica Mom</p>
+                    </div>
+            </div></div>
+            
+            <div class="item">
+                <div class="col-lg-12">
+                    <div class="card text-center me-lg-3 mt-2 p-3">
+                    <h6>Making it easier to enrol into universities abroad</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac.</p>
+                    <div class="avatar">
+                        <img src="" class="">
+                    </div>
+                    <h6>Milica Prvulj</h6>
+                    <p>Milica Mom</p>
+                    </div>
+            </div></div>
+            </div>
+    </div></div>
+
+    <div class="enrollment mt-3">
+        <div class="container">
+            <div class="d-flex">
+                <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+                <div class="d-inline ms-sm-3 mt-3">
+                    <h6>Enrollment for class 2023/24 is underway!</h6>
+                    <a href="#">Click here to register</a>	 
+                </div>
+        </div>
+    </div>
 </div>
 @endsection

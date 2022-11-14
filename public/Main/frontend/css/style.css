@@ -123,6 +123,57 @@ list-style-type: none;
 .home-wrapper .abc-work .card .image-one img{
     background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
 }
+
+/* Counter */
+.home-wrapper .chemical-counter {
+    position: relative;
+    width: 100%;
+} 
+.home-wrapper .chemical-counter .chemical-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .home-wrapper .chemical-counter {
+    background-color: #18a166;
+    background-image: url("/public/Main/frontend/images/chemicals.png");
+    background-repeat: no-repeat, repeat;
+ 
+} */
+.home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+    width: 100px;
+}
+.home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
+.home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-text
+{
+   color: white;
+   font-size: 1.25rem;
+}
+
+.home-wrapper .international-school .card .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #18a166;
+}
+.home-wrapper .international-school .card h6 ,
+.home-wrapper .international-school .card p{
+    text-align: center;
+}
+.home-wrapper .international-school .card:hover{
+    transform:scale(1.1);
+}
+
+.home-wrapper .enrollment img{
+width: 100px;
+}
+/* .owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+    display: block;
+} */
+
+
 @media screen and (max-width:992px) {
     .home-wrapper .group-image {
         position: absolute;
@@ -133,5 +184,37 @@ list-style-type: none;
     .home-wrapper .video-section iframe{
         width: 100%;
         height:100%;
+    }
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+        width: 60px;
+    }
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-text
+    {
+       color: white;
+       font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+        width: 35px;
+    }
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-text
+    {
+       color: white;
+       font-size: 0.75rem;
+    }
+}
+@media screen and (min-width:270px) and (max-width:576px){
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+        width: 35px;
+    }
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
+    .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-text
+    {
+       color: white;
+       font-size: 0.45rem;
     }
 }
