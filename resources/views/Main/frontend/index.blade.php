@@ -24,16 +24,22 @@
         <div class="ucs-upper-image ">
             <img src="{{asset('Main/frontend/images/camb-two.jpg')}}">
         </div>
-      <div class="cambridge-portion d-flex">
+      <div class="cambridge-portion ">
         <div class="row g-0">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
         <img src="{{asset('Main/frontend/images/kembridz.png')}}">
         <h2 class="new mb-0">NEW</h2>
         <h2 class="prog mb-0">Cambridge programme</h2>
         <h2 class="senior mb-0">for senior primary students!</h2>
         <p class="mb-0">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words.<p>
         <button type="button" class="btn btn-primary learn mt-3">Learn more <i class="fa fa-forward ms-1 mt-1" aria-hidden="true"></i></button>
-        </div></div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="girl-image">
+                <img src="{{asset('Main/frontend/images/girl.png')}}"> 
+                </div>   
+            </div>
+        </div>
         </div>
     </div>
 </div>
