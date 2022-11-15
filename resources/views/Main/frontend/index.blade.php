@@ -26,7 +26,7 @@
         </div>
       <div class="cambridge-portion ">
         <div class="row g-0">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-7 col-md-7 ">
         <img src="{{asset('Main/frontend/images/kembridz.png')}}">
         <h2 class="new mb-0">NEW</h2>
         <h2 class="prog mb-0">Cambridge programme</h2>
@@ -34,9 +34,9 @@
         <p class="mb-0">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words.<p>
         <button type="button" class="btn btn-primary learn mt-3">Learn more <i class="fa fa-forward ms-1 mt-1" aria-hidden="true"></i></button>
             </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="girl-image">
-                <img src="{{asset('Main/frontend/images/girl.png')}}"> 
+            <div class="col-lg-5 col-md-5 d-none d-lg-block">
+                <div class="girl-image mt-5 ">
+                <img src="{{asset('Main/frontend/images/girl.png')}}" class="img-fluid mt-4"> 
                 </div>   
             </div>
         </div>
@@ -48,14 +48,14 @@
     <div class="row mt-3 g-0">
         <div class="col-lg-6">
             <div class="text-cambridge">
-                <h1>Welcome to International School</h1>
-                <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <h3>Welcome to International School</h3>
+                <p class="me-md-3"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
             <div class="d-sm-flex two-logo">
-            <img src="{{asset('Main/frontend/images/kembridz.png')}}" class="me-lg-3">
-            <img src="{{asset('Main/frontend/images/ib.png')}}" class="me-lg-3 ">
+            <img src="{{asset('Main/frontend/images/kembridz.png')}}" class="me-md-5">
+            <img src="{{asset('Main/frontend/images/ib.png')}}" class="me-md-3 ">
             </div>
             </div>
 <div class="col-lg-6">
@@ -143,9 +143,6 @@
 </div>
 
 </div>
-<div class="turnaround">
-<div class="text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-</div>
 </div>
 </div>
 
@@ -205,6 +202,7 @@
 <div class="d-inline mt-2 mx-2">
  <h4>Data One</h4>
  <h6>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</h6>   
+ <button type="button" class="btn btn-default green-read ps-0">Read more</button>
 </div>
 </div>
 </div>
@@ -219,6 +217,7 @@
     <div class="d-inline mt-2 mx-2">
      <h4>Data Two</h4>
      <h6>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</h6>   
+     <button type="button" class="btn btn-default green-read ps-0">Read more</button>
     </div>
     </div>
 </div>
@@ -232,6 +231,7 @@
     <div class="d-inline mt-2 mx-2">
      <h4>Data Three</h4>
      <h6>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</h6>   
+     <button type="button" class="btn btn-default green-read ps-0">Read more</button>
     </div>
     </div>
 </div>
@@ -245,7 +245,8 @@
     <img src="{{asset('Main/frontend/images/chemicals.png')}}" class="img-fluid">
 
 <div class="container chemical-text">
-    <div class="row text-center">
+    <div class="d-none d-sm-block">
+    <div class="row text-center ">
     <div class="col-3">
     <div class="counter">
         <div class="ucs-counter">
@@ -283,7 +284,7 @@
                  <h5 class="counter-text">Cambridge Exams passing rate</h5>
             </div>
     </div>
-    </div>
+    </div></div>
     </div>
     </div></div>
 
