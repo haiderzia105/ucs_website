@@ -1,22 +1,28 @@
 @font-face{
     font-family:Roboto-Bold;
-    src: url('/public/Main/frontend/fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
 }
 @font-face{
     font-family:Roboto;
-    src: url('/public/Main/frontend/fonts/Roboto.ttf') format('truetype');
+    src: url('fonts/Roboto.ttf') format('truetype');
 }
 
+.sidenav{
+width: 130px;
+position: fixed;
+z-index: 1;
+top: 30%;
+right: 0px;
+background:#18a166;
+overflow-x: hidden;
+padding: 8px 0;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 60px;
+}
 /* Header Style */
 .header-top{
-    /* background: url('/public/Main/frontend/images/bg_header.jpg');
-    background-repeat: no-repeat, repeat; */
-    background-color: antiquewhite;
+    background-image: url("images/bg_header.jpg");
 }
-/* .header-top .sticky-wrapper .navbar .navbar-nav .dropdown  ul li a{
-    color: black;
-    font-family: Helvetica;
-} */
 .border-header{
     border-bottom: 0.5px solid black;
     width: 100%;
@@ -131,17 +137,17 @@ background-color: #18a166;
 }
 .overlay-ucs .cambridge-portion .new{
     font-family: Roboto-Bold;
-    font-weight:bold;
+    /* font-weight:bold; */
     color: #c42ea4;
 }
 .overlay-ucs .cambridge-portion .prog{
     font-family: Roboto-Bold;
-    font-weight:bold;
+    /* font-weight:bold; */
     color: white;
 }
 .overlay-ucs .cambridge-portion .senior{
     font-family: Roboto-Bold;
-    font-weight:bold;
+    /* font-weight:bold; */
     color: #c42ea4;
 }
 .overlay-ucs .cambridge-portion p{
@@ -151,20 +157,24 @@ background-color: #18a166;
 }
 .overlay-ucs .cambridge-portion button{
     font-family: Roboto-Bold;
-    font-weight:bold;
+    /* font-weight:bold; */
     background-color: #c42ea4;
     color: white;
     box-shadow: none;
     border: transparent;
 }
-.overlay-ucs .cambridge-portion .girl-image img{
+.overlay-ucs .cambridge-portion .girl-image img {
     position: absolute;
-    /* bottom: 0px; */
+    top: 20%;
+    left: 50%;
+    transform: translate(-10%,-9%);
 }
+
+
 
 /* Footer style */
 .footer-area{
-    background: #18a166 url('/public/Main/frontend/images/veins.png') repeat center top;
+    background: #18a166 url('images/veins.png') repeat center top;
 }
 .footer-area .footer-widget-container .single-footer-widget h4{
     color: white;
@@ -174,7 +184,7 @@ background-color: #18a166;
     list-style-type: none;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list li  img{
-    width: 200px;
+    width: 170px;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list-location li a img{
     width: 100%;
@@ -213,7 +223,7 @@ background-color: #18a166;
 /* Home Page Style */
 .home-wrapper .text-cambridge h3{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .text-cambridge p{
@@ -222,7 +232,7 @@ background-color: #18a166;
 }
 .home-wrapper .endorse h1{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .truely-text span{
@@ -230,7 +240,7 @@ background-color: #18a166;
 }
 .home-wrapper .modern-text h5{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .modern-text p{
@@ -278,7 +288,7 @@ background-color: #18a166;
     background: #fff; 
     padding: 0 15px; color: #18a166;
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
 
     
 }
@@ -289,13 +299,13 @@ background-color: #18a166;
     font-family: Roboto-Bold;
 }
 
-/* 
+
 .home-wrapper .abc-work .card {
     display: block;
     width: 100%;
     height: auto;
 }
-.home-wrapper .abc-work .turnaround{
+.home-wrapper .abc-work .turn{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -305,14 +315,17 @@ background-color: #18a166;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #18a166;
 }
-.home-wrapper .abc-work .card:hover .turnaround {
+.home-wrapper .abc-work .item:hover .turn{
     opacity: 1;
-  }
-.home-wrapper .abc-work .card:hover .turnaround .text {
     color: white;
-    font-size: 20px;
+    font-size: 1.25;
+    font-family: Roboto-Bold;
+  }
+.home-wrapper .abc-work .item:hover .turn.text {
+    color: white;
+    font-size: 1.25;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -320,28 +333,30 @@ background-color: #18a166;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  } */
+  }
 
 
 
 .home-wrapper .latest-news h5{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .latest-news .latest-news-cards .card .image-one img ,
 .home-wrapper .latest-news .latest-news-cards .card .image-two img ,
 .home-wrapper .latest-news .latest-news-cards .card .image-three img{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 .home-wrapper .latest-news .latest-news-cards .card button {
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .latest-news .latest-news-cards .card h4 {
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .latest-news .latest-news-cards .card h6{
@@ -351,13 +366,14 @@ background-color: #18a166;
 .home-wrapper .chemical-counter {
     position: relative;
     width: 100%;
+    background-image: url("images/chemicals.png");
 } 
-.home-wrapper .chemical-counter .chemical-text{
+/* .home-wrapper .chemical-counter .chemical-text{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -30%);
+} */
 
 /* .home-wrapper .chemical-counter {
     background-color: #18a166;
@@ -384,7 +400,7 @@ background-color: #18a166;
 .home-wrapper .regonize-section h3{
     /* font-size: 2.25rem; */
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .regonize-section p{
@@ -394,7 +410,7 @@ background-color: #18a166;
 .home-wrapper .international-school h3{
     /* font-size: 2.25rem; */
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #18a166;
 }
 .home-wrapper .international-school .card .avatar{
@@ -408,7 +424,7 @@ background-color: #18a166;
 .home-wrapper .international-school .card h6 {
     text-align: center;
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.25rem;
     color: #18a166;
 }
@@ -420,17 +436,38 @@ background-color: #18a166;
 .home-wrapper .international-school .card:hover{
     transform:scale(1.1);
 }
-
+.home-wrapper .international-school .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+.home-wrapper .international-school .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #18a166;
+}
+.home-wrapper .download-section .banner-one:hover{
+    transform:scale(1.1);
+}
+.home-wrapper .download-section .banner-two:hover{
+    transform:scale(1.1);
+}
+.home-wrapper .download-section .owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+display: flow-root;
+}
 .home-wrapper .enrollment img{
 width: 100px;
 }
 .home-wrapper .enrollment h4{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .home-wrapper .enrollment a{
     font-family: Roboto-Bold;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: red;
     text-decoration: none;
     font-size: 1.25rem;
@@ -445,14 +482,14 @@ width: 100px;
     .home-wrapper .group-image {
         position: absolute;
         top: 60px;
-        left: 0px;
+        left: -20px;
         transform: translate(0px,0px);
     }
     .home-wrapper .video-section iframe{
         width: 100%;
         height:100%;
     }
-    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+    /* .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
         width: 60px;
     }
     .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
@@ -462,11 +499,17 @@ width: 100px;
     {
        color: white;
        font-size: 1.0rem;
-    }
+    } */
 }
 
 @media screen and (max-width:768px){
-    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+    .home-wrapper .group-image {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transform: translate(0px,0px);
+    }
+    /* .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
         width: 35px;
     }
     .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
@@ -476,17 +519,30 @@ width: 100px;
     {
        color: white;
        font-size: 0.75rem;
-    }
+    } */
     .overlay-ucs .cambridge-portion {
         position: absolute;
         top: 8%;
         left: 30%;
-        transform: translate(-30%, -15%);
+        transform: translate(-30%, -10%);
         z-index: 1;
     }
+    .overlay-ucs .cambridge-portion .girl-image img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-10%,25%);
+        width: 400px;
+    }
+    .overlay-ucs .cambridge-portion p{
+        font-family: Roboto;
+        color: white;
+        font-size: 1.10rem;
+    }
+    
 }
 @media screen and (min-width:270px) and (max-width:576px){
-    .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
+    /* .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
         width: 35px;
     }
     .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num ,
@@ -496,7 +552,7 @@ width: 100px;
     {
        color: white;
        font-size: 0.45rem;
-    }
+    } */
     .overlay-ucs .cambridge-portion {
         position: absolute;
         top: 15%;
@@ -509,4 +565,50 @@ width: 100px;
         color: white;
         font-size: 1.0rem;
     }
+    .overlay-ucs .cambridge-portion .girl-image img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-10%,25%);
+    }
+}
+
+
+
+
+/* ........................................... */
+/* About Us style */
+
+
+.about-wrapper .about-us{
+    font-family: Roboto-Bold;
+    color: #18a166;
+}
+.about-wrapper .about-para p{
+    font-family: Roboto;
+    color: black;
+    text-align: justify;
+    font-size: 1.25rem;
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-header button{
+    box-shadow: none;
+    color: black;
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-header button:focus{
+    border-color: #18a166;
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed){
+    background-color: #18a166;
+    color:white
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "-";
+}
+
+.about-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button::after{
+    background-image: none;
+    content: "+";
 }

@@ -25,18 +25,18 @@
         </div>
     </div>
     <div class="container g-0">
-      <div class="row g-0">
-        <div class="col-lg-3">
+      <div class="row mx-2 g-0">
+        <div class="col-md-3 col-sm-6">
         <div class="ucs-logo py-3">
             <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}">
         </div></div>
-        <div class="col-lg-3">
+        <div class="col-md-3 col-sm-6">
           <div class="d-inline future-text">
              <h3 class="mb-0 pt-4">Truly Different</h3>
              <h3 class="mb-0">Future Ready School</h3>
           </div></div>
-          <div class="col-lg-6">
-            <div class="ucs-logo d-md-flex mt-3">
+          <div class="col-md-6 col-sm-12">
+            <div class="ucs-logo d-lg-flex mt-3">
                 <img src="{{asset('Main/frontend/images/kembridz.png')}}"  class="ms-md-3">
                 <img src="{{asset('Main/frontend/images/vaslika.png')}}" class="ms-md-3">
                 {{-- <img src="{{asset('Main/frontend/images/erasmus.png')}}" class="ms-md-3"> --}}
@@ -54,10 +54,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{route('home')}}">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="{{route('about')}}">About the school</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">

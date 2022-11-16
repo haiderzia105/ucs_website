@@ -22,3 +22,9 @@ Route::get("/page", function(){
  Route::get('/', function () {
     return view("main.frontend.index");
 });
+Route::get('user/index', function () {
+    return view("main.frontend.index");
+})->name('home');
+Route::get('user/about', function () {
+    return view("main.frontend.screens.about_school");
+})->name('about');
