@@ -8,7 +8,7 @@
     <form class="contact-form mx-md-5 mx-2 mt-4 pb-4 pt-2 px-4 mb-2">
         @csrf
         <div class="mb-4 mt-3 px-2 px-0 d-lg-flex">
-            <input type="text" class="form-control  mb-lg-0 me-0 mb-4" id="name" placeholder="Name" name="name">
+            <input type="text"  class="form-control  mb-lg-0 me-0 mb-4" id="name" placeholder="Name" name="name">
             <input type="email" class="form-control ms-lg-2 ms-0" id="email" placeholder="Email" name="email">          
         </div>
         <div class="mb-4 px-2  d-lg-flex num" >

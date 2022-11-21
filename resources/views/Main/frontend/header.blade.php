@@ -15,7 +15,7 @@
             <div class="col-md-6 col-sm-6">
                 <div class="header-top-social footer-social">
                     <ul class="d-flex mb-0 ">
-                        <li><i class="fa fa-flag me-2" aria-hidden="true"></i></li>
+                        <li>  <img src="{{asset('Main/frontend/images/pak.jpg')}}" class="me-2 mb-1" style="width:20px"></li>
                         <li ><a href="" class="plat-stud me-3">Platform for students</a></li>
                         <li><a href="" class="plat-parents me-3">Platform for parents</a></li>
                         <li><a href="" class="plat-dl me-3">DL platform</a></li>

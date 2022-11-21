@@ -68,15 +68,15 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingThree">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Programs
+          Jobs
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionAbout">
         <div class="accordion-body">
           <ul class="px-0">
             <li><a href=""><strong>The Diploma curriculum</strong></a></li>
-            <li><a href=""><strong>Fees for Programme</strong></a></li>
-            <li><a href=""><strong>Learner profile</strong></a></li>
+            <li><a href=""><strong>Accountant</strong></a></li>
+            <li><a href=""><strong>Math Teacher</strong></a></li>
             </ul>
         </div>
       </div>
@@ -84,31 +84,15 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Technology in use
+          Upcoming Events
         </button>
       </h2>
       <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionAbout">
         <div class="accordion-body">
           <ul class="px-0">
             <li><a href=""><strong>eLEARNING</strong></a></li>
-            <li><a href=""><strong>Tablets for learning</strong></a></li>
+            <li><a href=""><strong>Fun Fair</strong></a></li>
             <li><a href=""><strong>How to use the Platform for Students</strong></a></li>
-            </ul>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFive">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          For parents
-        </button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionAbout">
-        <div class="accordion-body">
-          <ul class="px-0">
-            <li><a href=""><strong>Progress Reports</strong></a></li>
-            <li><a href=""><strong>E-diary</strong></a></li>
-            <li><a href=""><strong>Safe Environment</strong></a></li>
             </ul>
         </div>
       </div>
