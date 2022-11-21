@@ -25,6 +25,15 @@ Route::get("/page", function(){
 Route::get('user/index', function () {
     return view("main.frontend.index");
 })->name('home');
+
 Route::get('user/about', function () {
     return view("main.frontend.screens.about_school");
 })->name('about');
+
+Route::get('user/admission', function () {
+    return view("main.frontend.screens.admission");
+})->name('admission');
+
+Route::get('user/contact', function () {
+    return view("main.frontend.screens.contact_us");
+})->name('contact');

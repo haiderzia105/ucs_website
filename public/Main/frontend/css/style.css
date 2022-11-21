@@ -7,13 +7,29 @@
     src: url('fonts/Roboto.ttf') format('truetype');
 }
 
+:root{
+    --bs-green:#18a166;
+    --bs-black:#0d0d0d;
+    --bs-grey:#808080;
+    --bs-light-purple:#9097b9;
+    --bs-light-gold:#d1aa67;
+    --bs-dark-grey:#616161;
+    --bs-pink:#c42ea4;
+    --bs-offwhite:#D6D6D6;
+    --bs-about-signup:#f4f2f0;
+    --bs-red:#ff0000;
+    --bs-white:#ffffff;
+
+}
+
+
 .sidenav{
 width: 130px;
 position: fixed;
 z-index: 1;
 top: 30%;
 right: 0px;
-background:#18a166;
+background:var(--bs-green);
 overflow-x: hidden;
 padding: 8px 0;
 border-top-left-radius: 10px;
@@ -29,7 +45,7 @@ border-bottom-left-radius: 60px;
 }
 .header-top .future-text h3{
 font-family: Roboto;
-color:grey
+color:var(--bs-grey);
 }
 .header-top-info ul {
     display: flex;
@@ -39,7 +55,7 @@ color:grey
 }
 .header-top-info ul li{
     list-style-type: none;
-    color: #9097b9;
+    color:var(--bs-light-purple);
     font-size: 16px;
     font-family:Roboto-Bold;
 }
@@ -60,7 +76,7 @@ list-style-type: none;
 }
 
 .header-top .footer-social ul li a{
-    color: #9097b9;
+    color: var(--bs-light-purple);
     text-decoration: none;
     font-family: Helvetica-Bold;
 
@@ -69,21 +85,21 @@ list-style-type: none;
     width: 100px;
 }
 .sticky-wrapper {
-    background-color: #18a166;
+    background-color: var(--bs-green);
     border-bottom: 0.5px solid #d1aa67;
 }
 .sticky-wrapper .navbar .navbar-nav li a {
-    color: white;
+    color: var(--bs-white);
     font-family: Roboto-Bold;
-    font-size: 1.0rem;
+    font-size: 1.25rem;
 }
 .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li a{
-    color: white;
+    color: var(--bs-white);
     font-family: Roboto-Bold;
 }
 .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li a:hover{
-    color: #18a166;
-    background-color: #fff;
+    color: var(--bs-green);
+    background-color: var(--bs-white);
 }
 .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li .enroll::before ,
 .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li .news::before 
@@ -102,7 +118,7 @@ margin-right: 10px;
     border: 0;
     padding: 0.5rem;
     border-radius: 0;
-    background-color: #616161;
+    background-color: var(--bs-dark-grey);
     min-width: 25rem;
     left: -5rem;
     top: 65px;
@@ -110,7 +126,7 @@ margin-right: 10px;
 
 .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu{
 columns: 2;
-background-color: #18a166;
+background-color: var(--bs-green);
 }
 .overlay-ucs {
     position: relative;
@@ -121,7 +137,7 @@ background-color: #18a166;
     height: 550px;
 }
 .overlay-ucs{
-    background: #18a166;
+    background: var(--bs-green);
     overflow: hidden;
 }
 .overlay-ucs .ucs-upper-image img{
@@ -138,28 +154,28 @@ background-color: #18a166;
 .overlay-ucs .cambridge-portion .new{
     font-family: Roboto-Bold;
     /* font-weight:bold; */
-    color: #c42ea4;
+    color: var(--bs-pink);
 }
 .overlay-ucs .cambridge-portion .prog{
     font-family: Roboto-Bold;
     /* font-weight:bold; */
-    color: white;
+    color: var(--bs-white);
 }
 .overlay-ucs .cambridge-portion .senior{
     font-family: Roboto-Bold;
     /* font-weight:bold; */
-    color: #c42ea4;
+    color: var(--bs-pink);
 }
 .overlay-ucs .cambridge-portion p{
     font-family: Roboto;
-    color: white;
+    color: var(--bs-white);
     font-size: 1.25rem;
 }
 .overlay-ucs .cambridge-portion button{
     font-family: Roboto-Bold;
     /* font-weight:bold; */
-    background-color: #c42ea4;
-    color: white;
+    background-color: var(--bs-pink);
+    color:var(--bs-white);
     box-shadow: none;
     border: transparent;
 }
@@ -171,13 +187,12 @@ background-color: #18a166;
 }
 
 
-
-/* Footer style */
+/*Footer style*/
 .footer-area{
     background: #18a166 url('images/veins.png') repeat center top;
 }
 .footer-area .footer-widget-container .single-footer-widget h4{
-    color: white;
+    color: var(--bs-white);
     font-family: Roboto-Bold;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list{
@@ -194,13 +209,13 @@ background-color: #18a166;
     list-style-type: none;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list li a {
-    color: white;
+    color: var(--bs-white);
     text-decoration: none;
     font-family: Roboto-Bold;
     font-size: 1.25rem;
 }
 .footer-area .footer-widget-container .single-footer-widget .footer-widget-list li p{
-    color: black;
+    color: var(--bs-black);
     font-family: Roboto;
     font-size: 1.25rem;
 }
@@ -208,23 +223,23 @@ background-color: #18a166;
     border-top:0.5px solid white ;
 }
 .footer-area .footer-container span{
-    color: white;
+    color: var(--bs-white);
    font-family: Roboto;
 }
 .footer-area .footer-container span a{
-    color: black;
+    color: var(--bs-black);
     font-family: Roboto;
 }
 .footer-area .footer-container .social-links a i{
-    color: white;
+    color: var(--bs-white);
     font-size: 1.0rem;
-    background-color:#c42ea4;
+    background-color:var(--bs-pink);
 }
 /* Home Page Style */
 .home-wrapper .text-cambridge h3{
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .text-cambridge p{
     font-family: Roboto;
@@ -233,7 +248,7 @@ background-color: #18a166;
 .home-wrapper .endorse h1{
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .truely-text span{
     font-family: Roboto-Bold;
@@ -241,7 +256,7 @@ background-color: #18a166;
 .home-wrapper .modern-text h5{
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .modern-text p{
     font-family: Roboto;
@@ -274,7 +289,7 @@ background-color: #18a166;
     z-index: 1;
 } 
 .home-wrapper .truely-text h5:before {
-    border-top: 2px solid #18a166;
+    border-top: 2px solid --bs-green;
     content:"";
     margin: 0 auto; /* this centers the line to the full width specified */
     position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
@@ -285,8 +300,8 @@ background-color: #18a166;
 
 .home-wrapper .truely-text h5 span { 
     /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    background: #fff; 
-    padding: 0 15px; color: #18a166;
+    background: var(--bs-white); 
+    padding: 0 15px; color: var(--bs-green);
     font-family: Roboto-Bold;
     /* font-weight: bold; */
 
@@ -315,16 +330,16 @@ background-color: #18a166;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #18a166;
+  background-color: var(--bs-green);
 }
 .home-wrapper .abc-work .item:hover .turn{
     opacity: 1;
-    color: white;
+    color: var(--bs-white);
     font-size: 1.25;
     font-family: Roboto-Bold;
   }
 .home-wrapper .abc-work .item:hover .turn.text {
-    color: white;
+    color: var(--bs-white);
     font-size: 1.25;
     position: absolute;
     top: 50%;
@@ -340,7 +355,7 @@ background-color: #18a166;
 .home-wrapper .latest-news h5{
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .latest-news .latest-news-cards .card .image-one img ,
 .home-wrapper .latest-news .latest-news-cards .card .image-two img ,
@@ -352,12 +367,12 @@ background-color: #18a166;
 .home-wrapper .latest-news .latest-news-cards .card button {
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .latest-news .latest-news-cards .card h4 {
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .latest-news .latest-news-cards .card h6{
     font-family: Roboto-Bold;
@@ -389,7 +404,7 @@ background-color: #18a166;
 .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-num-two ,
 .home-wrapper .chemical-counter .chemical-text .ucs-counter .counter-text
 {
-   color: white;
+   color: var(--bs-white);
    font-size: 1.25rem;
    font-family: Roboto;
 }
@@ -401,7 +416,7 @@ background-color: #18a166;
     /* font-size: 2.25rem; */
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .regonize-section p{
     font-size: 1.25rem;
@@ -411,13 +426,13 @@ background-color: #18a166;
     /* font-size: 2.25rem; */
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .international-school .card .avatar{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #18a166;
+    background-color: var(--bs-green);
     position: relative;
     left:40%;
 }
@@ -426,7 +441,7 @@ background-color: #18a166;
     font-family: Roboto-Bold;
     /* font-weight: bold; */
     font-size: 1.25rem;
-    color: #18a166;
+    color: var(--bs-green);
 }
 .home-wrapper .international-school .card p{
     text-align: center;
@@ -440,14 +455,14 @@ background-color: #18a166;
     width: 10px;
     height: 10px;
     margin: 5px 7px;
-    background: #D6D6D6;
+    background: var(--bs-offwhite);
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 30px;
 }
 .home-wrapper .international-school .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #18a166;
+    background: var(--bs-green);
 }
 .home-wrapper .download-section .banner-one:hover{
     transform:scale(1.1);
@@ -463,12 +478,12 @@ width: 100px;
 }
 .home-wrapper .enrollment h4{
     font-family: Roboto-Bold;
-    /* font-weight: bold; */
+    color: var(--bs-green);
 }
 .home-wrapper .enrollment a{
     font-family: Roboto-Bold;
     /* font-weight: bold; */
-    color: red;
+    color: var(--bs-red);
     text-decoration: none;
     font-size: 1.25rem;
 }
@@ -489,6 +504,11 @@ width: 100px;
         width: 100%;
         height:100%;
     }
+    .contact-wrapper .contact-form input{
+        box-shadow: none;
+        border: none;
+        width: 100%!important;
+     }
     /* .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
         width: 60px;
     }
@@ -536,10 +556,10 @@ width: 100px;
     }
     .overlay-ucs .cambridge-portion p{
         font-family: Roboto;
-        color: white;
+        color: var(--bs-white);
         font-size: 1.10rem;
     }
-    
+
 }
 @media screen and (min-width:270px) and (max-width:576px){
     /* .home-wrapper .chemical-counter .chemical-text .ucs-counter img{
@@ -562,7 +582,7 @@ width: 100px;
     }
     .overlay-ucs .cambridge-portion p{
         font-family: Roboto;
-        color: white;
+        color: var(--bs-white);
         font-size: 1.0rem;
     }
     .overlay-ucs .cambridge-portion .girl-image img {
@@ -571,37 +591,37 @@ width: 100px;
         left: 50%;
         transform: translate(-10%,25%);
     }
+    .sticky-wrapper .navbar .navbar-nav .dropdown .dropdown-menu{
+        columns: 1;
+        background-color: var(--bs-green);
+        }
 }
-
-
-
-
 /* ........................................... */
 /* About Us style */
 
 
 .about-wrapper .about-us{
     font-family: Roboto-Bold;
-    color: #18a166;
+    color: var(--bs-green);
 }
 .about-wrapper .about-para p{
     font-family: Roboto;
-    color: black;
+    color: var(--bs-black);
     text-align: justify;
     font-size: 1.25rem;
 }
 .about-wrapper .accordion-flush .accordion-item .accordion-header button{
     box-shadow: none;
-    color: black;
+    color: var(--bs-black);
     font-family: Roboto-Bold;
     font-size: 1.25rem;
 }
 .about-wrapper .accordion-flush .accordion-item .accordion-header button:focus{
-    border-color: #18a166;
+    border-color: var(--bs-green);
 }
 .about-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed){
-    background-color: #18a166;
-    color:white
+    background-color: var(--bs-green);
+    color:var(--bs-white);
 }
 .about-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{
     background-image: none;
@@ -612,3 +632,235 @@ width: 100px;
     background-image: none;
     content: "+";
 }
+.about-wrapper .accordion-flush .accordion-item .accordion-body ul{
+    list-style-type: none;
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-body ul li{
+   font-family: Roboto;
+   font-size: 1.25rem;
+}
+.about-wrapper .accordion-flush .accordion-item .accordion-body ul li a{
+    font-family: Roboto;
+    font-size: 1.10rem;
+    text-decoration: none;
+    color: var(--bs-black);
+ }
+ .about-wrapper .accordion-flush .accordion-item .accordion-body ul li a:focus{
+    color: var(--bs-green);
+ }
+ .about-wrapper .about-signup{
+    background-color: var(--bs-about-signup);
+
+ }
+ .about-wrapper .about-signup p{
+    font-family: Roboto;
+    font-size: 1.25rem;
+    color: var(--bs-green);
+ }
+ .about-wrapper .about-signup label{
+    color: var(--bs-green);
+    font-family: Roboto;
+    font-size: 1.25rem;
+ }
+ .about-wrapper .about-signup input{
+    box-shadow: none;
+    border: none;
+ }
+ .about-wrapper .about-signup button{
+    width: 100%;
+    background-color: var(--bs-green);
+    color: var(--bs-white);
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+    box-shadow: none;
+    border:none;
+ }
+ .about-wrapper .about-signup button:focus{
+    box-shadow: none;
+    border:none;
+ }
+
+.about-wrapper .enrollment img{
+width: 100px;
+}
+.about-wrapper .enrollment h4{
+    font-family: Roboto-Bold;
+    color: var(--bs-green);
+}
+.about-wrapper .enrollment a{
+    font-family: Roboto-Bold;
+    color: var(--bs-red);
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/* ............................. */
+
+/* Admission Page Style */
+.admission-wrapper .admission-head{
+    font-family: Roboto-Bold;
+    color: var(--bs-green);
+}
+.admission-wrapper p{
+    font-family: Roboto;
+    color: var(--bs-black);
+    font-size:1.25rem
+}
+.admission-wrapper .phase-one{
+    font-family: Roboto-Bold;
+    color: var(--bs-green);
+}
+.admission-wrapper .phase-one-para{
+    font-family: Roboto;
+    color: var(--bs-black);
+    font-size:1.25rem;
+    text-align:justify
+}
+.admission-wrapper .phase-points{
+    list-style-type: none;
+    list-style-image: url('images/ucs_logo_list.svg');
+}
+.admission-wrapper .phase-points li{
+    font-family: Roboto;
+    color: var(--bs-black);
+    font-size:1.25rem;
+    text-align:justify;
+}
+.admission-wrapper .phase-two{
+    font-family: Roboto-Bold;
+    color: var(--bs-green); 
+}
+.admission-wrapper .phase-points-two .info-point{
+    list-style-type: none;
+}
+.admission-wrapper .phase-points-two li{
+    font-family: Roboto;
+    color: var(--bs-black);
+    font-size:1.25rem;
+    text-align:justify;
+}
+.admission-wrapper .enrollment img{
+    width: 100px;
+}
+.admission-wrapper .enrollment h4{
+    font-family: Roboto-Bold;
+    color: var(--bs-green);
+}
+.admission-wrapper .enrollment a{
+    font-family: Roboto-Bold;
+    color: var(--bs-red);
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.admission-wrapper .accordion-flush .accordion-item .accordion-header button{
+    box-shadow: none;
+    color: var(--bs-black);
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-header button:focus{
+    border-color: var(--bs-green);
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed){
+    background-color: var(--bs-green);
+    color:var(--bs-white);
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "-";
+}
+
+.admission-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button::after{
+    background-image: none;
+    content: "+";
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-body ul{
+    list-style-type: none;
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-body ul li{
+   font-family: Roboto;
+   font-size: 1.25rem;
+}
+.admission-wrapper .accordion-flush .accordion-item .accordion-body ul li a{
+    font-family: Roboto;
+    font-size: 1.10rem;
+    text-decoration: none;
+    color: var(--bs-black);
+ }
+ .admission-wrapper .accordion-flush .accordion-item .accordion-body ul li a:focus{
+    color: var(--bs-green);
+ }
+ .admission-wrapper .about-signup{
+    background-color: var(--bs-about-signup);
+
+ }
+ .admission-wrapper .about-signup p{
+    font-family: Roboto;
+    font-size: 1.25rem;
+    color: var(--bs-green);
+ }
+ .admission-wrapper .about-signup label{
+    color: var(--bs-green);
+    font-family: Roboto;
+    font-size: 1.25rem;
+ }
+ .admission-wrapper .about-signup input{
+    box-shadow: none;
+    border: none;
+ }
+ .admission-wrapper .about-signup button{
+    width: 100%;
+    background-color: var(--bs-green);
+    color: var(--bs-white);
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+    box-shadow: none;
+    border:none;
+ }
+ .admission-wrapper .about-signup button:focus{
+    box-shadow: none;
+    border:none;
+ }
+
+
+ /* Contact Page Style */
+
+ .contact-wrapper{
+    background-image: url('images/camb-two-one.jpg') ;
+    background-color: #18a166;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+ }
+ .contact-wrapper .contact-form .contact-form-title{
+    color: var(--bs-black);
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+ }
+ .contact-wrapper .contact-head{
+    font-family: Roboto-Bold;
+    color: var(--bs-white);
+ }
+ .contact-wrapper .contact-form input{
+    box-shadow: none;
+    border: none;
+    width: 49%;
+ }
+ .contact-wrapper  .contact-form input{
+    box-shadow: none;
+    border: none;
+ }
+ .contact-wrapper  .contact-form  textarea{
+    box-shadow: none;
+    border: none;
+ }
+ .contact-wrapper .contact-form .send-btn{
+    background-color: var(--bs-white);
+    width: 50%;
+    color:var(--bs-green);
+    font-family: Roboto-Bold;
+    font-size: 1.25rem;
+    box-shadow: none;
+    border: none;
+ }

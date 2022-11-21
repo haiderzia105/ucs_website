@@ -380,7 +380,7 @@
             </div>
     </div></div>
 
-    <div class="enrollment mt-3">
+    <div class="enrollment mt-3 mb-5">
         <div class="container">
             <div class="d-flex">
                 <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">

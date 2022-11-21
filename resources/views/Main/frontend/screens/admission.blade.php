@@ -1,37 +1,69 @@
 @extends('main.frontend.web')
 @section('content')
-<div class="about-wrapper mt-sm-5 mt-3">
-<div class="container g-0">
-<div class="row g-0">
- <h3 class="about-us px-2 px-sm-0">About Us</h3>	
- <div class="col-md-5">
-<div class="about-para mx-2 mx-sm-0">
-<p>Conceived as a place where students learn about the world around them in a creative and modern way, International School is an inspiring environment for ambitious young people who strive towards high academic goals. In the modern world, which is constantly changing, it is necessary to keep up with the times and continuously adopt new knowledge. That is the very reason why we decided to merge global trends in teaching methodology, information technology and curriculum design.</p>
-<p>By recognising and developing talents, fostering multidisciplinary knowledge, raising the level of culture and honing social skills, our school is given an advantage where the choice of secondary education is concerned. Not only is our teaching methodology contemporary but also our teachers, who, with a modern mindset, use mentoring to develop students’ intrinsic motivation and their need to advance through new knowledge.</p>
-<p>Our modern building in downtown Belgrade is equipped with state-of-the-art teaching tools and interactive whiteboards. Spacious classrooms, an amphitheatre, a learning centre, and a recreation room provide students with a stimulating environment for an all-day stay. In the four years ahead, education at International School will be an exciting journey filled with exploration, friendship and fun. At this school, the students do not study because they have to, but because they want to!
-<p>This is why International School is the right place for upper grades of primary and secondary education. This is a school where we learn, make friends, grow and evolve, a school where we cherish differences, where we know that work is what brings success, and that friendships mean investing in the future.</p>
-</p></div>
-<div class="enrollment my-4">
-  <div class="container">
-      <div class="d-flex">
-          <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
-          <div class="d-inline ms-sm-3 mt-3">
-              <h4>Enrollment for class 2023/24 is underway!</h4>
-              <div class="d-flex">
-              <a href="#">Click here to register</a>
-              <i class="fa fa-forward ms-2 mt-2" aria-hidden="true" style="color: red"></i>	 
-              </div>
-          </div>
-  </div>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="cambridge-banner mx-sm-3 my-2 my-md-0">
-    <img src="{{asset('Main/frontend/images/cambridge-banner.png')}}" class="img-fluid">
-</div>
-</div>
-<div class="col-md-4">
+<div class="admission-wrapper mt-sm-5 mt-3">
+    <div class="container g-0">
+        <div class="row g-0">
+            <h3 class="admission-head px-2 px-sm-0">Admission</h3>	
+            <div class="col-md-8">
+                <p class="px-2 px-sm-0">There are two phases for admission:</p>
+                <div class="row g-0">
+                <div class="col-md-8">
+                    <h3 class="phase-one px-2 px-sm-0">Phase one</h3>	
+                    <ul class="phase-points px-2 px-sm-0">
+                        <li>Filling in the registration</li>
+                        <li>Meeting of parents/guardians and a team of experts</li>
+                        <li>Psychological testing and interview with the school psychologist in order to assess the student’s psychological and physical abilities and talents</li>
+                        <li>Getting the students and parents familiar with International School’s academic, social and ethical code of conduct</li>
+                        <li>Adjusting the terms of schooling with parents/guardians, as well as mutual expectations</li>
+                    </ul>
+                    <h3 class="phase-two px-2 px-sm-0">Phase Two</h3>	
+                    <ul class="phase-points-two px-2 px-sm-0">
+                        <li>Completed application for admission</li>
+                        <li>Signed Agreement between International School and the student and the parents/guardians</li>
+                        <li><b>Delivering the necessary documentation:</b></li>
+                        <ul>
+                        <li>Birth certificate / Passport</li>
+                        <li>Medical certificate of intellectual and physical ability to attend school</li>
+                        <li>Confirmation of settlement of the first instalment, semi-annual tuition or full tuition</li>
+                        </ul>
+                        <li><b>For enrolment into the requested primary school grade:</b></li>
+                        <ul>
+                        <li>certificate of completion for the 5th grade of primary school if the child attended a national programme, or</li>
+                        <li>certificate of achievement for Year 6 if the child attended the Cambridge programme (preferably the Statement of result for Cambridge Primary), or</li>
+                        <li>certificate of achievement for Year 5 if the child attended the K12 system</li>
+                        </ul>
+                        <li><b>For enrolment into the requested secondary school grade:</b></li>
+                        <ul>
+                         <li>certificate of completing primary school for enrolment into the 1st grade, or</li>   
+                         <li>certificate of completing the previous secondary school grade for enrolment into higher grades</li>
+                        </ul>
+                        <li class="info-point">For more information, write us at:<a href="#"> admission@iss.edu.rs</a></li>
+                    </ul>
+                    <div class="enrollment my-4">
+                        <div class="container">
+                            <div class="d-flex">
+                                <img src="{{asset('Main/frontend/images/ucs_logo.svg')}}" class="img-fluid">
+                                <div class="d-inline ms-sm-3 mt-3">
+                                    <h4>Enrollment for class 2023/24 is underway!</h4>
+                                    <div class="d-flex">
+                                    <a href="#">Click here to register</a>
+                                    <i class="fa fa-forward ms-2 mt-2" aria-hidden="true" style="color: red"></i>	 
+                                    </div>
+                                </div>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="admission-group mx-2 my-2 my-sm-0">
+                    <img src="{{asset('Main/frontend/images/group-image.jpg')}}" class="img-fluid">
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+
+  <div class="col-md-4">
   <div class="accordion accordion-flush" id="accordionAbout">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -130,7 +162,7 @@
     <button type="submit" class="btn btn-primary">Subscribe</button>
   </form>
 
-  <div class="about-banner-group ">
+  <div class="admission-banner-group ">
   <div class="image my-3">
     <img src="{{asset('Main/frontend/images/enroll.jpg')}}" class="img-fluid px-5"> 
   </div>
@@ -147,7 +179,7 @@
 
 
 </div>
-</div>
-</div>
+        </div>
+    </div>
 </div>
 @endsection

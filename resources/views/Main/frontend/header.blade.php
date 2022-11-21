@@ -59,36 +59,8 @@
       <li class="nav-item">
         <a class="nav-link" href="{{route('about')}}">About the school</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Admission
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAdmission">
-          <li><a class="dropdown-item enroll disabled" href="#"><b>How to enroll?</b></a></li>
-          <li><a class="dropdown-item" href="#">Admission process</a></li>
-          <li><a class="dropdown-item" href="#">Tution fees</a></li>
-          <li><a class="dropdown-item" href="#">Admission office</a></li>
-          <li><a class="dropdown-item news disabled" href="#"><b>News</b></a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Additional Services</a></li>
-        </ul>
-      
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProgram" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Programs
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownProgram">
-          <li><a class="dropdown-item enroll disabled" href="#"><b>How to enroll?</b></a></li>
-          <li><a class="dropdown-item" href="#">Admission process</a></li>
-          <li><a class="dropdown-item" href="#">Tution fees</a></li>
-          <li><a class="dropdown-item" href="#">Admission office</a></li>
-          <li><a class="dropdown-item news disabled" href="#"><b>News</b></a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Additional Services</a></li>
-        </ul>
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('admission')}}">Admission</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownJobs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -106,38 +78,8 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownParents" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          For parents
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownParents">
-          <li><a class="dropdown-item enroll disabled" href="#"><b>How to enroll?</b></a></li>
-          <li><a class="dropdown-item" href="#">Admission process</a></li>
-          <li><a class="dropdown-item" href="#">Tution fees</a></li>
-          <li><a class="dropdown-item" href="#">Admission office</a></li>
-          <li><a class="dropdown-item news disabled" href="#"><b>News</b></a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Additional Services</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTech" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Technology in use
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownTech">
-          <li><a class="dropdown-item enroll disabled" href="#"><b>How to enroll?</b></a></li>
-          <li><a class="dropdown-item" href="#">Admission process</a></li>
-          <li><a class="dropdown-item" href="#">Tution fees</a></li>
-          <li><a class="dropdown-item" href="#">Admission office</a></li>
-          <li><a class="dropdown-item news disabled" href="#"><b>News</b></a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Parent-School Contact</a></li>
-          <li><a class="dropdown-item" href="#">Additional Services</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUpcoming" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Upcoming
+          Upcoming Events
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownUpcoming">
           <li><a class="dropdown-item enroll disabled" href="#"><b>How to enroll?</b></a></li>
@@ -151,7 +93,7 @@
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="{{route('contact')}}">Contact Us</a>
       </li>
     </ul>
   </div>
