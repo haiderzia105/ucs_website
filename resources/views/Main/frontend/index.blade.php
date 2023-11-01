@@ -41,7 +41,7 @@
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 d-none d-sm-block">
                 <div class="girl-image mt-5 ">
-                <img src="{{asset('Main/frontend/images/girl.png')}}" class="img-fluid mt-5"> 
+                <img src="{{asset('Main/frontend/images/group_img_two.png')}}" class="img-fluid mt-5"> 
                 </div>   
             </div>
         </div>
@@ -66,7 +66,7 @@
             <div class="col-lg-6 col-md-6">
             <div class="building-flex text-center mb-5">
             <img src="{{asset('Main/frontend/images/blocks.png')}}" class="img-fluid">
-            <img src="{{asset('Main/frontend/images/group.png')}}" class="img-fluid group-image">
+            <img src="{{asset('Main/frontend/images/group_img_one_.png')}}" class="img-fluid group-image">
             </div>
             </div>
 
